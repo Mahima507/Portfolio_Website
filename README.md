@@ -32,7 +32,7 @@ For any questions or inquiries, feel free to reach out to me:
 
 - Name: Mahima Chandel
 - Email: mahimasingh0811@gmail.com
-- Portfolio: [yourportfolio.com](https://www.yourportfolio.com/)
+- Portfolio: [portfolio.com](https://github.com/Mahima507/Portfolio_Website)
 - LinkedIn: [linkedin.com/Mahima Chandel](https://www.linkedin.com/in/mahima-chandel-819606204)
 ---
 ![logo](https://github.com/Mahima507/Portfolio_Website/blob/main/website%20photo.png)

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Personal Portfolio Website</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/38899bfea2.js" crossorigin="anonymous"></script>
+    </head>
+
+<body>
+<div id="header">
+    <div class="container">
+          <nav>
+            <img src="images/logo.png" class="logo" alt="logo-image">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Certificates</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul> 
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+          </nav>
+<!----------------------- intro part ----------------------->
+      <div class="header-text">
+         <h3 class="my-profession">I'm a <span class="typing">CS Undergrad</span></h3>
+         <h1>Hello World!,<br> I'm <span>Mahima Chandel</span></h1>
+      </div>  
+    </div>
+ </div>
+ <!----------------------------------about------------------------------------------------------------------------->
+   
+ <div id="about">
+        <div class="container">
+            <div class="row">
+               <div class="about-col-1">
+                    <img src="images/user.png" alt="user image">
+               </div>
+    <div class="about-col-2">
+                      <h1 class="sub-title">About Me</h1>
+                      <br>
+                      <h2>Mahima Chandel</h2>
+                      <br>
+                <p> I am a dynamic and driven 3rd-year B.Tech CSE student specializing in Full Stack Development and DevOps at DIT University. 
+                    Hailing from Kanpur, Uttar Pradesh, India,
+                     I possess a strong passion for leveraging technology to create innovative solutions. 
+                     As an NCC cadet with a prestigious 'C' certificate,
+                      I have honed my leadership, discipline, and teamwork skills, which are invaluable in collaborative environments. 
+                      With a keen eye for detail and a problem-solving mindset, 
+                      I thrive in challenging projects and excel in delivering high-quality results.
+                     I am eager to contribute my expertise in Full Stack Development and DevOps to enhance efficiency, scalability, and user experience.  </p>      
+                  
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">SKILLs</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+        <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>Web Development</span><br>Web app Development</li>
+                <li><span>languages known</span><br>Java, HTML5, CSS3, Javascript, MySQL </li>
+                <li><span>languages known</span><br>Git, Nodejs, Reactjs ,Github, VSCode, MongoDB </li>
+                <li><span>Soft Skills</span><br>Analytical thinking, Proble-solving, Time management</li>
+            </ul>
+        </div>
+
+        <div class="tab-contents" id="experience">
+            <ul>
+                <li><span>2021 - present</span><br>Member of Prithvi,The Environmental Club DITU</li>
+                <li><span>2021 - present</span><br>Member of Computer Socity of India DITU</li>
+                <li><span>2021 - 2023 </span><br>NCC cadet from 11UK Girls Battalion</li>
+                
+            </ul>
+        </div>
+
+            <div class="tab-contents" id="education">
+               <ul>
+                <li><span>2020 - 2024</span><br>B.tech CSE at DIT University</li>
+                <li><span>2018</span><br>Secondary School from Kendriya Vidyalaya No.3 Amritsar</li>
+                <li><span>2016</span><br>High School from Kendriya Vidyalaya Babina Cantt </li>
+                
+               </ul>
+            </div>
+    </div>
+</div>
+
+</div>
+
+</div> 
+
+
+<!----------  Certificates  ------------>>
+
+<div id="services">
+    
+    <div class="container">
+    <h1 class="sub-title">My Certificates</h1>
+    <div class="services-list">
+          
+            <div>
+                <i class="fa-solid fa-certificate"></i>
+                <h3>Introduction to Containers w/ Docker, Kubernetes</h3>
+                <a href="https://coursera.org/share/279c9df9126ae46cf57e603f22852169">Learn more</a>
+            </div>
+        
+            <div>
+                
+                <i class="fa-solid fa-certificate"></i>
+                <h3>Introduction to Software Engineering</h3> 
+                <a href="https://coursera.org/share/dda1402873d815ec7be5cda01fb42aec">Learn more</a>
+            </div>
+        
+            <div >
+                <i class="fa-solid fa-certificate"></i>
+                <h3>Introduction to Front-End Development</h3>
+                <a href="https://coursera.org/share/afa6135e7aefb08edc3ca8e6a927e8d7">Learn more</a>
+            </div>
+            
+            <div >
+                <i class="fa-solid fa-certificate"></i>
+                <h3>Programming Foundations with JS, HTML and CSS</h3>
+                <a href="https://coursera.org/share/94268668aeb79e5292a19ad1430357b3">Learn more</a>
+            </div>
+            
+            <div >
+                <i class="fa-solid fa-certificate"></i>
+                <h3>Introduction to Artificial Intelligence(AI)</h3>
+                <a href="https://coursera.org/share/f304f8d6e5ffe0c90a4308b35c0abbe3">Learn more</a>
+            </div>
+        
+            <div >
+                <i class="fa-solid fa-certificate"></i>
+               <h3>Entrepreneurship Capstone</h3> 
+               <a href="https://coursera.org/share/e359b9e7cf3b714a3d4ea869e2c2559a">Learn more</a>
+            </div>
+          
+            <div>
+                <i class="fa-solid fa-certificate"></i>
+                <h3>Cloud Computing Basics (Cloud 101)</h3>
+                <a href="https://coursera.org/share/3c985bce8770e250e67b4420efa644ef">Learn more</a> 
+            </div>
+        
+            <div>
+                <i class="fa-solid fa-certificate"></i>
+                 <h3>AI For Everyone</h3>
+                 <a href="https://coursera.org/share/a422b1bf4d1246470ac0feb6c84795e6">Learn more</a>
+            </div>
+            <div >
+                <i class="fa-solid fa-certificate"></i>
+                <h3>Entrepreneurship
+                    Launching an Innovative
+                    Business
+                    </h3>
+               <a href="https://coursera.org/share/b257769bfd26fe0f63bfc7b59a1c4982">Learn more</a>
+            </div>
+            <div >
+                <i class="fa-solid fa-certificate"></i>
+                <h3>Programming with JavaScript</h3>
+               <a href="https://coursera.org/share/bfda0cbe6b9e20032102127a0c6b2628">Learn more</a>
+            </div>
+         
+            <div >
+                <i class="fa-solid fa-certificate"></i>
+                <h3> Introduction to TCP/IP</h3>
+               <a href="https://coursera.org/share/b5dbdf1b760c8d0e4023ac86402d3117">Learn more</a>
+            </div>
+
+            <div >
+                <i class="fa-solid fa-certificate"></i>
+                <h3>AI Workflow: Enterprise Model Deployment</h3>
+               <a href="https://coursera.org/share/0666671541583765a3e74912b823ba25">Learn more</a>
+            </div>
+        
+      </div> 
+              <a href="#" class="btn">See more</a>
+    </div>     
+</div>
+
+                   
+  <!-- ----------------------- services -------------------------------------------------- 
+  <div id="services">
+     <div class="container">
+        <h1 class="sub-title">My Certificates</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus laborum numquam quibusdam aspernatur magnam laboriosam quis incidunt rerum, quod repellat, accusantium itaque ullam nihil sit veniam nemo beatae magni? Ipsa!</p>
+                 <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus laborum numquam quibusdam aspernatur magnam laboriosam quis incidunt rerum, quod repellat, accusantium itaque ullam nihil sit veniam nemo beatae magni? Ipsa!</p>
+                 <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus laborum numquam quibusdam aspernatur magnam laboriosam quis incidunt rerum, quod repellat, accusantium itaque ullam nihil sit veniam nemo beatae magni? Ipsa!</p>
+                 <a href="#">Learn more</a>
+            </div>
+        </div>
+
+     </div>
+
+  </div>
+>
+  <! ---------------------- portfolio  ------------->
+   
+<div id="portfolio">
+    <div class="container">
+    <h1 class="sub-title">My Projects</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/work-1.png">
+             <div class="layer">
+                <h3>Weather Web App</h3>
+                <p>A weather app created using HTML, CSS, and JavaScript is a web-based application that provides users with current and forecast weather information for a particular location. The app's interface is designed using HTML and CSS to provide a visually appealing and intuitive user experience.</p>
+                <a href="https://mahima507.github.io/Weather-App/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>  
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-2.png">
+            <div class="layer">
+                <h3>Calculator Web App</h3>
+                <p>It's an Simple Calculator created using Html,Css,JavaScript.</p>
+                <a href="https://mahima507.github.io/Calculator-Using-Html-CSS-JavaScript/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>  
+            </div>
+            
+        </div>
+        <div class="work">
+            <img src="images/work-3.png">
+            <div class="layer">
+                <h3>Chrome Dino Game App</h3>
+                <p> Its an 2D Chrome Dino Game coded purely in java Work in progress</p>
+                <a href="https://github.com/Mahima507/Chrome_Dino_Game_Java"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+            </div>
+            
+         </div>
+
+       </div>
+       <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!------------------------  contact  --------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> For any suggestion you can mail me<br><br><i class="fa-solid fa-paper-plane"></i>@ mahimasingh0811@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+                
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/mahima-chandel-819606204"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/Mahima34443"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://medium.com/@mahimasingh0811"><i class="fa-brands fa-medium"></i></a>
+                   <a href="https://github.com/Mahima507"><i class="fa-brands fa-github"></i></i></a>
+                </div>
+              <a href="images/my-resume.pdf" download class="btn btn2">Download Resume</a>   
+            </div>
+           
+            <div div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="email@123.com" required>
+                    <textarea name="Message" rows="6" placeholder="Write your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+ 
+    <span id="msg"></span>
+             </div>
+        </div>
+    </div>
+    <div class="copyright">
+    <p><i class="fa-regular fa-copyright"></i>Copyright<i class="fa-solid fa-at"></i>2023 All rights reserved | This site is <i class="fa-solid fa-code"></i> with <i class="fa-solid fa-heart"></i> by Mahima Chandel</p>
+</div>
+  
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+ <script src="style-typed.js"></script>
+        <script src="script.js" async defer></script>
+    
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzRx1g1vv7kQ-whNishzJTsVPtUww0jt2i2gsrMc-5a3jqpD14Km2Ag_IZbyCaf5e4_/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg= document.getElementById("msg")
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                        msg.innerHTML = "Message sent successfully"
+                        setTimeout(function(){
+                            msg.innerHTML = ""
+                        },4000)
+                        form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>  
+    
+    </body>
+</html>
